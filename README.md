@@ -4,7 +4,9 @@ The "React Quiz App" is a dynamic and engaging web application built with React.
 
 As you answer questions, the app instantly updates your score and provides a comprehensive scorecard once the quiz is completed. The quiz also includes an automatic submission feature when the timer runs out.
 
-| [Your Link Text](https://vinayak9669.github.io/React-QuizApp/)
+# Demo
+
+ [Your Link Text](https://vinayak9669.github.io/React-QuizApp/)
 
 ## Technology Used 🛠️
 
