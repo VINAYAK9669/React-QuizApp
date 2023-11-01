@@ -1,4 +1,4 @@
-# React Quiz App 🚀
+# 🚀 React Quiz App 
 
 The "React Quiz App" is a dynamic and engaging web application built with React.js. This project offers a variety of features, including a complete responsive design for seamless use on different devices, a clean and intuitive user interface, and a timed quiz with a progress bar to track your progress. 
 
@@ -8,11 +8,11 @@ As you answer questions, the app instantly updates your score and provides a com
 
  [Your Link Text](https://vinayak9669.github.io/React-QuizApp/)
 
-## Technology Used 🛠️
+## 🛠️Technology Used 
 
 - [React.js](https://reactjs.org/)
 
-## Project Features 📋
+## 📋Project Features 
 
 - 🌐 Complete Responsive Website: This quiz app is designed to work seamlessly on various devices and screen sizes.
 - 🎨 Clean and Simple User Interface: A user-friendly design for an enjoyable quiz experience.
@@ -22,12 +22,12 @@ As you answer questions, the app instantly updates your score and provides a com
 - 📜 Score Card: Get a comprehensive scorecard with your quiz results.
 - ⏱️ Auto-Submission: The quiz automatically submits when the time is up.
 
-## Learning Points 📚
+## 📚Learning Points 
 
 - 📡 Creating a Fake API: Learn how to create and deploy a mock API and integrate it into project.
 - ⚙️ State Management: Explore state management techniques using the `useReducer` hook to efficiently handle application state.
 - 🔄 Fetching Data with `useEffect()`: Utilize the `useEffect` hook for fetching API data and managing timers.
 
-## Responsiveness 
+## 📱Responsiveness 
 ![ScreenShots](ScreenShots/React_Quiz_App_Responsivness.png)
 
