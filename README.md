@@ -24,7 +24,7 @@ As you answer questions, the app instantly updates your score and provides a com
 
 ## Learning Points 📚
 
-- 📡 Creating a Fake API: Learn how to create and deploy a mock API and integrate it into your project.
+- 📡 Creating a Fake API: Learn how to create and deploy a mock API and integrate it into project.
 - ⚙️ State Management: Explore state management techniques using the `useReducer` hook to efficiently handle application state.
 - 🔄 Fetching Data with `useEffect()`: Utilize the `useEffect` hook for fetching API data and managing timers.
 
