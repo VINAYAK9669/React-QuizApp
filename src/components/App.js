@@ -13,11 +13,11 @@ import Footer from "./Footer";
 import Timer from "./Timer";
 import "../index.css";
 
-const SECS_PER_QUESTION = 30;
+const SECS_PER_QUESTION = 5;
 
+// We need to define the intialState in order to use useReduce Hook.
 const initialState = {
   questions: [],
-
   // 'loading', 'error', 'ready', 'active', 'finished'
   status: "loading",
   index: 0,
@@ -68,19 +68,17 @@ function reducer(state, action) {
       };
     case "restart":
       return { ...initialState, questions: state.questions, status: "ready" };
-    // return {
-    //   ...state,
-    //   points: 0,
-    //   highscore: 0,
-    //   index: 0,
-    //   answer: null,
-    //   status: "ready",
-    // };
 
     case "tick":
       return {
         ...state,
         secondsRemaining: state.secondsRemaining - 1,
+        highscore:
+          state.secondsRemaining === 0
+            ? state.points > state.highscore
+              ? state.points
+              : state.highscore
+            : state.highscore,
         status: state.secondsRemaining === 0 ? "finished" : state.status,
       };
 
@@ -124,7 +122,7 @@ export default function App() {
             {status === "error" && <Error />}
             {status === "ready" && (
               <StartScreen numQuestions={numQuestions} dispatch={dispatch} />
-            )}
+            )}{" "}
             {status === "active" && (
               <>
                 <Progress
