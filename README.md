@@ -30,6 +30,27 @@ As you answer questions, the app instantly updates your score and provides a com
 - ⚙️ State Management: Explore state management techniques using the `useReducer` hook to efficiently handle application state.
 - 🔄 Fetching Data with `useEffect()`: Utilize the `useEffect` hook for fetching API data and managing timers.
 
+## How to Install and Run
+
+1. Clone the repository:
+
+    ```bash
+   gh repo clone VINAYAK9669/React-QuizApp
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    cd React-QuizApp
+    npm install
+    ```
+
+3. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
 ## 📱Responsiveness 
 ![ScreenShots](ScreenShots/React_Quiz_App_Responsivness.png)
 
